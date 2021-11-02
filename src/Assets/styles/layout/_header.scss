@@ -223,10 +223,6 @@
             }
         }
 
-
-
-
-
         .header__navListIcon {
             ul {
                 display: flex;
@@ -271,11 +267,14 @@
         }
 
         .btn__iconCart {
+            position: relative;
+
             &:hover {
                 .navItem__dropdown--list.cart {
+                    width: 200px;
                     display: block;
-                    top: 75px;
-                    right: 9%;
+                    top: 70px;
+                    right: -43px;
 
                     &::after {
                         content: "";
@@ -305,6 +304,7 @@
 
                 .wrapProductItem {
                     display: flex;
+                    margin: 8px 0;
 
                     justify-content: space-between;
 
