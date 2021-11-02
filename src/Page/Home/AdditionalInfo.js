@@ -120,13 +120,13 @@ const AdditionalInfo = () => {
                                 <h3>REVIEW SON KEM BOURJOIS VELVET</h3>
                                 <div className="wrapContent">
                                     <p className="wrapContent__main">Hi, chào các nàng ... sau khá nhiều lời hứa hão thì hôm nay tớ quay lại hăm nóng cái Blog này vào một ngày đầu hè nóng oi bức, khi mà dân tình xô nhau đi tắm Free để giải nhiệt.</p>
-                                    <Link className="wrapContent__info">Bởi NamTran (27/05/2015)</Link>
+                                    <Link to="/" className="wrapContent__info">Bởi NamTran (27/05/2015)</Link>
                                 </div>
                                 <div className="wrapDetail">
-                                    <Link className="seeMore">
+                                    <Link to="/" className="seeMore">
                                         Xem thêm <i className="fas fas-angle-down"></i>
                                     </Link>
-                                    <Link className="commentCount">
+                                    <Link to="/" className="commentCount">
                                         23 bình luận
                                     </Link>
                                 </div>
@@ -151,19 +151,19 @@ const AdditionalInfo = () => {
                                     <p className="about__item--title">TAG SẢN PHẨM</p>
                                     <SpaceLine />
                                     <ul className="listTags">
-                                        <li><Link>Đồng hồ</Link></li>
-                                        <li><Link>Túi</Link></li>
-                                        <li><Link>Phụ kiện</Link></li>
-                                        <li><Link>Giày</Link></li>
-                                        <li><Link>Áo sơ mi</Link></li>
-                                        <li><Link>Sandal</Link></li>
-                                        <li><Link>Nước hoa</Link></li>
-                                        <li><Link>Trẻ em</Link></li>
-                                        <li><Link>Sandal</Link></li>
-                                        <li><Link>Nước hoa</Link></li>
-                                        <li><Link>Trẻ em</Link></li>
-                                        <li><Link>Nước hoa</Link></li>
-                                        <li><Link>Trẻ em</Link></li>
+                                        <li><Link to="/">Đồng hồ</Link></li>
+                                        <li><Link to="/">Túi</Link></li>
+                                        <li><Link to="/">Phụ kiện</Link></li>
+                                        <li><Link to="/">Giày</Link></li>
+                                        <li><Link to="/">Áo sơ mi</Link></li>
+                                        <li><Link to="/">Sandal</Link></li>
+                                        <li><Link to="/">Nước hoa</Link></li>
+                                        <li><Link to="/">Trẻ em</Link></li>
+                                        <li><Link to="/">Sandal</Link></li>
+                                        <li><Link to="/">Nước hoa</Link></li>
+                                        <li><Link to="/">Trẻ em</Link></li>
+                                        <li><Link to="/">Nước hoa</Link></li>
+                                        <li><Link to="/">Trẻ em</Link></li>
                                     </ul>
                                 </div>
                             </div>

@@ -59,7 +59,7 @@ const Blog = () => {
                                     </p>
                                 </div>
                                 <div className="wrapReadMore">
-                                    <p><Link>Xem thêm &nbsp;<i className="fa fa-angle-right"></i></Link></p>
+                                    <p><Link to="/blog">Xem thêm &nbsp;<i className="fa fa-angle-right"></i></Link></p>
                                     <p>23 bình luận</p>
                                 </div>
                             </div>

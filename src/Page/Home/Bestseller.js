@@ -109,21 +109,21 @@ const Bestseller = () => {
         <div className="bestseller__product">
 
             <div className="bestseller__product--title">
-                <Link className="wrapTitle__item">Sản phẩm mới</Link>
-                <Link className="wrapTitle__item active">Sản phẩm bán chạy</Link>
-                <Link className="wrapTitle__item">Sản phẩm đặc biệt</Link>
+                <Link to="/" className="wrapTitle__item">Sản phẩm mới</Link>
+                <Link to="/" className="wrapTitle__item active">Sản phẩm bán chạy</Link>
+                <Link to="/" className="wrapTitle__item">Sản phẩm đặc biệt</Link>
             </div>
             <SpaceLine marginRight={true} />
             <div className="bestseller__product--categories ">
                 <ul className="categories--left">
-                    <li><Link>Mỹ phẩm</Link></li>
-                    <li><Link>Chăm sóc da</Link></li>
-                    <li><Link>Dành cho tóc</Link></li>
+                    <li><Link to="/">Mỹ phẩm</Link></li>
+                    <li><Link to="/">Chăm sóc da</Link></li>
+                    <li><Link to="/">Dành cho tóc</Link></li>
                 </ul>
                 <ul className="categories--right">
-                    <li><Link>Nước hoa</Link></li>
-                    <li><Link>Trang sức</Link></li>
-                    <li><Link>Quà tặng</Link></li>
+                    <li><Link to="/">Nước hoa</Link></li>
+                    <li><Link to="/">Trang sức</Link></li>
+                    <li><Link to="/">Quà tặng</Link></li>
                 </ul>
             </div>
             <div className="slider__product">

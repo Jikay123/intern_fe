@@ -16,28 +16,28 @@ const Footer = () => {
                         <p className="footer__contact--title">LIÊN HỆ VỚI CHÚNG TÔI</p>
                         <ul className="footer__contact--list">
                             <li className="footer__contact--item address">
-                                <Link className="d-flex wrapperItem">
+                                <Link to="/" className="d-flex wrapperItem">
                                     <img src={iconMap} alt="iconMap" />
                                     <span>Tầng 4, tòa nhà Hanoi Group Số 442 Đội Cấn, P.Cống Vị, Q. Ba Đình, Hà Nội</span>
                                 </Link>
                             </li>
                             <li className="d-flex footer__contact--item">
-                                <Link className="d-flex wrapperItem">
+                                <Link to="/" className="d-flex wrapperItem">
                                     <img src={iconPhone} alt="iconPhone" />
                                     <span>(04) 6674 2332 </span>
                                 </Link>
                                 <span className="space-line">&nbsp;-&nbsp;</span>
-                                <Link className="d-flex wrapperItem">
+                                <Link to="/" className="d-flex wrapperItem">
                                     <img src={iconFax} alt="iconFax" />
                                     <span>(04) 3786 8904</span>
                                 </Link>
                             </li>
                             <li className="d-flex footer__contact--item ">
-                                <Link className="d-flex wrapperItem">
+                                <Link to="/" className="d-flex wrapperItem">
                                     <img src={iconPhone} alt="" />
                                     <span>(04) 6680 9686 </span>
                                 </Link>
-                                <Link className="d-flex wrapperItem">
+                                <Link to="/" className="d-flex wrapperItem">
                                     <img src={iconEmail} alt="" />
                                     <span>Support@bizweb.vn</span>
                                 </Link>
@@ -47,37 +47,37 @@ const Footer = () => {
                     <div className="col-sm-12 col-lg-2 footer__contact shopping">
                         <p className="footer__contact--title">Chuyển hàng</p>
                         <ul className="footer__contact--list">
-                            <li><Link>Mua sắm trực tuyến</Link></li>
-                            <li><Link>Đến từ chúng tôi gửi đến</Link></li>
-                            <li><Link>Chính sách vận chuyển</Link></li>
-                            <li><Link>Vận chuyển thông tin</Link></li>
+                            <li><Link to="/" >Mua sắm trực tuyến</Link></li>
+                            <li><Link to="/" >Đến từ chúng tôi gửi đến</Link></li>
+                            <li><Link to="/" >Chính sách vận chuyển</Link></li>
+                            <li><Link to="/" >Vận chuyển thông tin</Link></li>
                         </ul>
                     </div>
                     <div className="col-sm-12 col-lg-2 footer__contact support">
                         <p className="footer__contact--title">Hỗ trợ</p>
                         <ul className="footer__contact--list">
-                            <li><Link>Câu chuyện của chúng tôi</Link></li>
-                            <li><Link>Thanh toán an toàn</Link></li>
-                            <li><Link>Tùy chọn vận chuyển</Link></li>
-                            <li><Link>Chính sách vận chuyển</Link></li>
+                            <li><Link to="/" >Câu chuyện của chúng tôi</Link></li>
+                            <li><Link to="/" >Thanh toán an toàn</Link></li>
+                            <li><Link to="/" >Tùy chọn vận chuyển</Link></li>
+                            <li><Link to="/" >Chính sách vận chuyển</Link></li>
                         </ul>
                     </div>
                     <div className="col-sm-12 col-lg-2 footer__contact infomation">
                         <p className="footer__contact--title">THÔNG TIN</p>
                         <ul className="footer__contact--list">
-                            <li><Link>Về chúng tôi</Link></li>
-                            <li><Link>Điều khoản & Điều kiện</Link></li>
-                            <li><Link>Chính sách riêng tư</Link></li>
-                            <li><Link>Đơn đặt hàng và returns</Link></li>
+                            <li><Link to="/" >Về chúng tôi</Link></li>
+                            <li><Link to="/" >Điều khoản & Điều kiện</Link></li>
+                            <li><Link to="/" >Chính sách riêng tư</Link></li>
+                            <li><Link to="/" >Đơn đặt hàng và returns</Link></li>
                         </ul>
                     </div>
                     <div className="col-sm-12 col-lg-2 footer__contact account">
                         <p className="footer__contact--title">MY ACCOUNT</p>
                         <ul className="footer__contact--list">
-                            <li><Link>Xem giỏ hàng</Link></li>
-                            <li><Link>Sản phẩm yêu thích</Link></li>
-                            <li><Link>Kiểm tra</Link></li>
-                            <li><Link>Theo dõi đặt hàng của tôi</Link></li>
+                            <li><Link to="/" >Xem giỏ hàng</Link></li>
+                            <li><Link to="/" >Sản phẩm yêu thích</Link></li>
+                            <li><Link to="/" >Kiểm tra</Link></li>
+                            <li><Link to="/" >Theo dõi đặt hàng của tôi</Link></li>
                         </ul>
                     </div>
                 </div>
