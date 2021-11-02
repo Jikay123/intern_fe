@@ -1,0 +1,91 @@
+.wrapCartList {
+    width: 100%;
+    padding: 1rem 0 3rem;
+
+    .title {
+        font-size: 30px;
+        margin-bottom: 2rem;
+    }
+
+    .wrapTableCart {
+        width: 100%;
+
+        border: 1px solid #ccc;
+
+        th {
+            text-transform: uppercase;
+        }
+
+
+        th,
+        td {
+            text-align: center;
+            padding: 10px 1rem;
+            border: 1px solid #ccc;
+            vertical-align: middle;
+            font-size: 13px;
+
+            &.product__price,
+            &.product__total {
+
+                font-family: "Lobster", sans-serif;
+            }
+
+            &.btn__remove {
+                button {
+                    font-size: 20px;
+                    border: none;
+
+                    &:hover {
+                        color: #789629;
+                    }
+                }
+            }
+        }
+
+        &.mobile {
+            display: none;
+        }
+
+        @media screen and (max-width: 570px) {
+
+            & {
+                display: none;
+
+                &.mobile {
+                    display: block;
+                    // width: 100%;
+
+                    tr,
+                    tbody {
+                        margin: 10px;
+
+                    }
+                }
+            }
+
+        }
+
+    }
+
+    .wrapButton {
+        text-align: right;
+
+        &__item {
+            background-color: #000;
+            color: #fff;
+            padding: 12px 16px;
+            border: none;
+            margin: 10px;
+            transition: 0.3s ease-in-out;
+
+            &:hover {
+                background-color: #789629;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}

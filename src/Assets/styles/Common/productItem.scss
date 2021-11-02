@@ -1,0 +1,73 @@
+.wrapProductItem {
+    cursor: pointer;
+
+    .product__img {
+        border-bottom: 1px dashed #afb2b7;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .product__info {
+        text-align: center;
+
+
+        &--name {
+            color: #afb2b7;
+            margin: 8px auto;
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        &--description {
+            font-size: 16px;
+            padding-bottom: 16px;
+        }
+
+        &--price {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Lobster", sans-serif;
+            font-size: 18px;
+            color: #789629;
+
+            .price__new,
+            .price__old {
+                span.unit {
+                    position: absolute;
+                    top: -5px;
+                    right: -12px;
+                }
+            }
+
+            .price__new {
+                position: relative;
+                margin-right: 10px;
+
+            }
+
+            .price__old {
+                position: relative;
+                margin-left: 10px;
+                color: #afb2b7;
+                font-size: 16px;
+            }
+        }
+    }
+
+    &:hover {
+        .wrapListButton {
+            opacity: 1;
+        }
+    }
+
+    &.small {
+        .product__img {
+            border-bottom: 1px dashed #afb2b7;
+            width: 80%;
+            text-align: center;
+            margin: 0 auto;
+            object-fit: cover;
+        }
+    }
+}

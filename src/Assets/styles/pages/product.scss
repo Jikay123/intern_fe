@@ -1,0 +1,245 @@
+#bannerProduct {
+    background-image: url(../../../Assets/images/banner.png);
+    padding-top: 2.3rem;
+    padding-bottom: 4rem;
+    margin-bottom: 3.5rem;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: 405px;
+    background-color: #afb2b7;
+    background-position: 85% -120px;
+
+    .wrapBannerContent {
+        display: flex;
+        align-items: center;
+
+        .banner__sale {
+            font-family: "Lobster", sans-serif;
+            font-size: 70px;
+            margin: 0 8px;
+        }
+
+        .banner__time {
+            font-size: 32px;
+        }
+    }
+}
+
+.content__left {
+    padding-bottom: 5rem;
+
+    .categories {
+        .heading-secondary {
+            font-weight: 700;
+            font-size: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        &__collapse {
+            margin: 32px 0;
+
+            .categories__title {
+                .btn {
+                    padding: 8px 0;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    background-color: #fff;
+                    border: 1px solid #fff;
+                    border-bottom: 1px solid #ccc;
+                    text-transform: uppercase;
+                    outline: none;
+
+                    &:focus {
+                        outline: none;
+                        box-shadow: none;
+                    }
+
+                    .fas {
+                        transition: all 0.5s ease-in-out;
+
+                        &.active {
+                            transform: rotateZ(-180deg);
+                        }
+                    }
+                }
+            }
+
+            .categorie__list {
+                li {
+                    cursor: pointer;
+                    list-style: inside;
+                    padding: 8px 0;
+                    margin-left: 8px;
+                    color: #737373;
+                    font-size: 14px;
+
+                    &:hover {
+                        color: #789629;
+                    }
+                }
+
+                padding-bottom: 16px;
+                border-bottom:1px dashed #ccc;
+            }
+        }
+    }
+
+    .compare {
+        margin: 48px 0 56px;
+
+        &__title {
+            font-weight: 700;
+            font-size: 18px;
+            text-transform: uppercase;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        &__description {
+            padding-top: 8px;
+            font-size: 13px;
+            color: #737373;
+        }
+    }
+
+    .tags {
+        &__title {
+            font-weight: 700;
+            font-size: 18px;
+            text-transform: uppercase;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        &__list {
+            margin: 32px 0 64px;
+            display: flex;
+            flex-wrap: wrap;
+
+            li {
+                cursor: pointer;
+                margin: 5px 3px 5px 0;
+                color: #737373;
+                font-weight: 600;
+                font-size: 12px;
+                padding: 4px 8px;
+                border: 1px solid #ccc;
+                transition: 0.3s ease-in-out;
+
+                &:hover {
+                    background: #000;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .store {
+        background-image: url(../../images/store.png);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        &__name {
+            padding-top: 10rem;
+            padding-bottom: 10rem;
+            color: #fff;
+            font-family: "Roboto Slab", serif;
+            font-size: 32px;
+            font-weight: 300;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
+
+}
+
+.content__right {
+
+    .product__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 56px auto 24px;
+
+
+        &.show {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 50px;
+            margin: 50px 0 20px;
+            flex-wrap: nowrap;
+
+            .wrapProductItem {
+                display: flex;
+                justify-content: space-between;
+                background-color: #fff;
+                cursor: pointer;
+                padding: 24px 0;
+                height: 100%;
+
+                .product__img {
+                    object-fit: cover;
+                    display: inline;
+                    width: 31%;
+                    height: 100%;
+                }
+
+                .product__info {
+                    text-align: left;
+                    width: calc(69% - 30px);
+                    max-width: 100%;
+
+                    &--title {
+                        font-weight: 600;
+                        font-size: 20px;
+                        margin: 8px 0;
+                    }
+
+                    &--description {
+                        font-weight: 600;
+                        color: #afb2b7;
+                        line-height: 20px;
+                        font-size: 13px;
+                        padding: 8px 0;
+                    }
+                }
+
+                .rating {
+                    display: flex;
+                    margin: 8px 0;
+                }
+
+                .product__info--price {
+                    margin-top: 16px;
+                    justify-content: flex-start;
+
+                    .price__new {
+                        font-size: 24px;
+                        color: #000;
+                    }
+
+                    .price__old {
+                        opacity: 0;
+                    }
+                }
+
+                .wrapListButton {
+                    opacity: 1;
+                    justify-content: flex-start;
+
+                    .favorite {
+                        margin-left: 16px;
+                        margin-right: 16px;
+                    }
+                }
+            }
+
+
+        }
+
+    }
+}

@@ -1,0 +1,32 @@
+.wrapLineSpace {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0;
+
+    &.marginRight {
+        margin: 10px -15px;
+    }
+
+    .line-center {
+        text-align: center;
+        position: relative;
+        font-size: 12px;
+        // font-weight: 600;
+        letter-spacing: 2px;
+        margin: 0 3px;
+    }
+
+    .line-left {
+        width: 80px;
+        height: 1px;
+        background-color: #ccc;
+    }
+
+    .line-right {
+        width: 80px;
+        height: 1px;
+        background-color: #ccc;
+    }
+}

@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Home from './Page/Home';
+import './Assets/styles/styles.scss'
+import Product from './Page/Product';
+import Blog from './Page/Blog';
+import Introduce from './Page/Introduce';
+import NotFound from './Component/notFound';
+import Contact from './Page/Contact';
+import ProductDetail from './Page/ProduceDetail';
+import Cart from './Page/Cart';
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/product" exact component={Product} />
+          <Route path="/blog" exact component={Blog} />
+          <Route path="/introduce" exact component={Introduce} />
+          <Route path="/contact" exact component={Contact} />
+          <Route path="/product-detail" exact component={ProductDetail} />
+          <Route path="/cart" exact component={Cart} />
+          <Route path="*" exact={true} component={NotFound} />
+        </Switch>
+      </Router>
     </div>
   );
 }

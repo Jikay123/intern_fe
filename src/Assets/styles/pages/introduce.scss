@@ -1,0 +1,37 @@
+#introduce {
+    margin: 48px auto;
+
+    .introduce__title {
+        font-size: 28px;
+        margin: 12px 0 24px;
+    }
+
+    .introduce__right {
+        padding: 24px;
+
+        .txtTitle {
+            margin: 24px 0;
+            color: #000;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .txtDescription {
+            line-height: 20px;
+            font-size: 12px;
+            color: #4b4b4b;
+        }
+
+        .txtLink {
+            display: block;
+            font-size: 12px;
+            margin: 24px 0;
+            color: #818181;
+
+            &:hover {
+                text-decoration: underline;
+                color: #789629;
+            }
+        }
+    }
+}
