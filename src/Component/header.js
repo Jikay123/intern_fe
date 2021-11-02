@@ -95,7 +95,7 @@ const Header = () => {
                                         <span>Tổng số: </span>
                                         <span className="price">240.000<span className="unit">đ</span></span>
                                     </div>
-                                    <button className="btn__cart">Giỏ hàng</button>
+                                    <button className="btn__cart" onClick={() => history.push('/cart')}>Giỏ hàng</button>
                                 </div>
 
                             </div>

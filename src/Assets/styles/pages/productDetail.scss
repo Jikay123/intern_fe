@@ -232,6 +232,14 @@
             }
         }
     }
+
+    @include tablet {
+        .wrapInfoBasic {
+            .wrapInfoBasic__title {
+                margin-top: 50px;
+            }
+        }
+    }
 }
 
 .wrapTabs {
